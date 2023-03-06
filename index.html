@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is a basic web game.">
+    <meta name="keyword" content="game, rock, paper, scissors, user, computer, random, scores">
+    <meta name="author" content="Muktar Bello">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <title>Page title</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <h1>Rock, Paper & Scissors Game</h1>
+
+    <div>
+        <table id="scores_section">
+            <th colspan="3">SCORES</th>
+            
+            <tr>
+                <td class="label">Computer</td>
+                <td class="label">:</td>
+                <td class="label">User (You)</td>
+            </tr>
+        
+            <tr>
+                <td id="comp_score">0</td>
+                <td>:</td>
+                <td id="user_score">0</td>
+            </tr>
+        </table>
+    </div>
+        
+    <div>
+        <table id="comp_choice" cellspacing="25">
+            <th colspan="3">Computer Choice</th>
+            
+            <tr>
+                <td class="comp_opt" id="comp_rock">ROCK</td>
+                <td class="comp_opt" id="comp_paper">PAPER</td>
+                <td class="comp_opt" id="comp_sciss">SCISSORS</td>
+            </tr>
+        </table>
+    </div>
+    
+    <div style="margin-top:30px; font-size: 20px; font-weight: bold;" id="comment"></div>
+    
+    <div>
+        <table id="user_choice" cellspacing="30">
+            <th colspan="3">User Choice</th>
+            
+            <tr>
+                <td><button class="user_opt" onclick="rock()" id="user_rock">ROCK</button></td>
+                <td><button class="user_opt" onclick="paper()" id="user_paper">PAPER</button></td>
+                <td><button class="user_opt" onclick="scissors()" id="user_sciss">SCISSORS</button></td>
+            </tr>
+        </table>
+    </div>
+   
+</body>
+
+<footer>
+    <p>Contact</p>
+    <p>Phone: <a href="tel: +2349069044178">+234-906-904-4178</a></p>
+    <p>Email: <a href="mailto: amirmuktar369@gmail.com">amirmuktar369@gmail.com</a></p>
+    <br>
+    
+    <p>Social media</p>
+    <a href="https://www.facebook.com/muhammadbello.muktar.5" id="fb"><i class="fa fa-facebook"></i></a>
+    <a href="https://wa.link/rqto9k" id="wa"><i class="fa fa-whatsapp"></i></a>
+</footer>
+
+</html>

@@ -67,3 +67,11 @@ i {
     margin: 12px;
     font-size: 25px;
 }
+#restartbtn {
+    padding: 10px;
+    width: 50%;
+    border-radius: 6px;
+    background: #ff2a36;
+    color: #efff6a;
+    font-size: 18px;
+}

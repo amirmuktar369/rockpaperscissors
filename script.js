@@ -197,4 +197,12 @@ function scissors() {
     document.getElementById("user_score").innerHTML = score_user;
     
 }
+function restart() {
+    score_user = 0;
+    score_comp = 0;
+    document.getElementById("comment").innerHTML = "";
+    document.getElementById("comp_score").innerHTML = 0;
+    document.getElementById("user_score").innerHTML = 0;
+}
+
 
